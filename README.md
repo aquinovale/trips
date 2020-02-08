@@ -1,6 +1,7 @@
 # É necessário instalar os pacotes do python com o pip
 
 import json
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
