@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="minimum-requirements-techniques">Minimum Requirements Techniques</h1>
+<p>1.What is the average distance traveled by trips with a maximum of 2 passengers;<br>
+R:   2.662526996203216482</p>
+<ol start="2">
+<li>Which are the 3 biggest vendors based on the total amount of money raised;</li>
+</ol>
+<p>CMT -  19549084.28<br>
+VTS  -  19043434.00<br>
+DDS  - 2714901.72</p>
+<ol start="3">
+<li>Make a histogram of the monthly distribution over 4 years of rides paid with cash;</li>
+</ol>
+<p>2012 - 810713<br>
+2011 - 810713<br>
+2010 - 810713<br>
+2009 - 810713</p>
+<ol start="4">
+<li>Make a time series chart computing the number of tips each day for the last 3 months of 2012.</li>
+</ol>
+<p>I don’t understood this question, so I can have wrong, 2012 just have month 10.</p>
+<p>Year  - Month - Total<br>
+2012 -    10    - 89772</p>
+<h1 id="bonus">Bonus</h1>
+<p>1 - What is the average trip time on Saturdays and Sundays;<br>
+R:   2.676199835167157408</p>
+<p>2 - Make a latitude and longitude map view of pickups and dropoffs in the year 2010;</p>
+<p>SELECT pickup_latitude, pickup_longitude, dropoff_latitude, dropoff_longitude  FROM sample<br>
+WHERE extract(YEAR FROM from_iso8601_timestamp(dropoff_datetime)) = 2010</p>
+<p>3 - Simulate JSON data streaming and view using a real-time metric with the Trips Data;<br>
+I don’t understood this question.</p>
+<p>4 - To be able to provision your entire environment in a public cloud, preferably AWS.</p>
+<p>Bucket S3 --------------------&gt; ATHENA --------------------&gt; QuickSight</p>
+</div>
+</body>
+
+</html>
