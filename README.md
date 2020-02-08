@@ -3,7 +3,9 @@
 import json
 
 import pandas as pd
+
 import numpy as np
+
 import matplotlib.pyplot as plt
 
 
@@ -15,21 +17,28 @@ python exercicio1.py
 # Arquivos 
 
 data-sample_data-nyctaxi-trips-2009-json_corrigido.json
+
 data-sample_data-nyctaxi-trips-2010-json_corrigido.json
+
 data-sample_data-nyctaxi-trips-2011-json_corrigido.json
+
 data-sample_data-nyctaxi-trips-2012-json_corrigido.json
 
 
 # Saída esperada
 
 Lendo arquivo data-sample_data-nyctaxi-trips-2009-json_corrigido.json
+
 Lendo arquivo data-sample_data-nyctaxi-trips-2010-json_corrigido.json
+
 1.What is the average distance traveled by trips with a maximum of 2 passengers;
-2.6625269962033875
+
+R: 2.6625269962033875
 
 ==============================================================================
 
 2. Which are the 3 biggest vendors based on the total amount of money raised;
+
 vendor_id
 CMT    9.774542e+06
 VTS    9.521717e+06
@@ -39,7 +48,8 @@ Name: total_amount, dtype: float64
 ==============================================================================
 
 3. Make a histogram of the monthly distribution over 4 years of rides paid with cash;
-              dropoff_datetime  dropoff_latitude    ...      trip_distance  vendor_id
+
+              dropoff_datetime  dropoff_latitude    ...      trip_distance  vendor_id              
 year   month                                        ...                              
 2009.0 1.0               66812             66812    ...              66812      66812
        2.0               66680             66680    ...              66680      66680
