@@ -1,5 +1,5 @@
 ﻿# DDL 
-
+´´´ 
 CREATE EXTERNAL TABLE `sample`(
   `vendor_id` string COMMENT 'from deserializer', 
   `pickup_datetime` string COMMENT 'from deserializer', 
@@ -28,7 +28,7 @@ LOCATION
 TBLPROPERTIES (
   'has_encrypted_data'='false', 
   'transient_lastDdlTime'='1581035082')
-
+'''
 
 
 # Minimum Requirements Techniques
